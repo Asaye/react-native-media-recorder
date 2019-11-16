@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+   android:background="#2E2E2E">
+   
+   <TextView
+      android:id="@+id/audioText"
+      android:layout_width="fill_parent"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:text="@string/ready"
+      android:textColor="#42a5f5"
+      android:textSize="18dp" />
+
+<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:padding="15dp"
+        android:layout_below="@id/texture"
+        android:background="#4B515D">
+        <Button
+            android:id="@+id/audio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#bbdefb"
+            android:text="@string/start"
+            android:background="#3F729B"
+             />
+      
+
+    </FrameLayout>
+
+</RelativeLayout>
